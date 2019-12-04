@@ -1,0 +1,42 @@
+{
+  "name": "myfirstwebpackdemo",
+  "version": "0.0.1",
+  "description": "learning webpack4.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "webpack",
+    "http-server":"http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliteFan0814/myFirstWebpackDemo.git"
+  },
+  "keywords": [
+    "webpack4.0",
+    "pc"
+  ],
+  "author": "elitefan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EliteFan0814/myFirstWebpackDemo/issues"
+  },
+  "homepage": "https://github.com/EliteFan0814/myFirstWebpackDemo#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "css-loader": "^3.2.1",
+    "file-loader": "^5.0.2",
+    "http-server": "^0.12.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "jquery": "^1.12.4",
+    "swiper": "^5.2.1"
+  }
+}

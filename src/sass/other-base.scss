@@ -1,0 +1,155 @@
+.banner {
+  img {
+    width: 100%;
+    vertical-align: middle;
+  }
+}
+
+
+
+main {
+  background-color: #F7F7F7;
+  border: 0.1px solid transparent;
+
+  .crumb-nav {
+    max-width: 1200px;
+    margin: 10px auto;
+    box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.2);
+
+    ul {
+      display: flex;
+
+      li {
+        padding: 10px 0px;
+
+        a {
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+
+  .main-wrapper {
+    max-width: 1200px;
+    min-height: 500px;
+    margin: 15px auto 40px;
+    display: flex;
+
+    aside {
+      width: 20%;
+
+      .aside-list {
+        background: #fff;
+      }
+    }
+
+    .aside-list h2,
+    .content h2 {
+      color: #3d3d3d;
+      border-bottom: 1px solid #ddd;
+      font-size: 16px;
+      padding: 0 16px;
+      height: 38px;
+      line-height: 38px;
+    }
+
+    .aside-list ul li {
+      margin: 0 15px;
+      font-size: 14px;
+      padding: 10px 0;
+      border-bottom: 1px dotted #ddd;
+    }
+
+    .content {
+      width: 80%;
+      margin: 0 0 10px 10px;
+      background: #fff;
+
+      .inner-news-list {
+        li {
+          padding: 10px;
+          border-bottom: 1px dotted #ddd;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          a {
+            margin-left: 10px;
+          }
+
+          span {
+            font-size: 12px;
+            color: #8d8d8d;
+          }
+
+          .news-num {
+            color: #fff;
+            font-size: 12px;
+            line-height: 12px;
+            margin: 0 5px;
+            padding: 3px 2px;
+            display: inline-block;
+            width: 15px;
+            text-align: center;
+            border-radius: 50%;
+            background-color: #0965ae;
+          }
+        }
+      }
+
+      p {
+        margin: 10px 20px;
+      }
+
+      .inner-img-list {
+        .inner-img-wrapper {
+          margin: 0 auto;
+          .inner-img-item {
+            // border: 1px solid #ddd;
+            // box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            float: left;
+            width: 33.33%;
+            text-align: center;
+            padding: 10px;
+            img {
+              width: 100%;
+            }
+            h4{
+              margin: 10px 0;
+            }
+          }
+        }
+      }
+    }
+
+    .certificate-search {
+      display: flex;
+      align-items: center;
+
+      input {
+        padding: 10px 5px;
+        width: 300px;
+        margin: 30px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        outline: none;
+        transition: all 0.3s;
+
+        &:hover,
+        &:focus {
+          border: 1px solid #0965ae;
+        }
+      }
+
+      button {
+        a {
+          font-size: 16px;
+          padding: 8px 30px;
+        }
+
+        cursor: pointer;
+      }
+    }
+  }
+}
